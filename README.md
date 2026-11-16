@@ -155,26 +155,26 @@ mêmes données, versions et conditions de charge.
 
 ## Publication GitHub
 
-Le dépôt est préparé mais aucune publication ni aucun `push` n'a été effectué.
-Avant de rendre le dépôt public :
+Le dépôt public est disponible à l'adresse
+[`github.com/Starbenji012/BiblioQuad`](https://github.com/Starbenji012/BiblioQuad).
+Le commit initial a été créé avec le message `Finalisation du projet
+BiblioQuad - TP2 MRI`.
+
+Avant toute future mise à jour :
 
 1. relire `git status` et `git diff --stat` ;
 2. vérifier qu'aucun `.env`, mot de passe réel, clé ou artefact généré n'est
    suivi ;
 3. décider si les adresses e-mail des auteurs dans le PDF et le `.tex` doivent
    rester publiques ;
-4. créer un dépôt GitHub vide, sans README ni licence générés automatiquement ;
-5. initialiser et publier le dépôt localement :
+4. vérifier le remote et publier la branche `main` :
 
 ```powershell
-git init
-git branch -M main
 git add .
 git status
-git commit -m "Prepare BiblioQuad for GitHub"
-git remote add origin https://github.com/<compte>/<depot>.git
+git commit -m "Décrire la mise à jour"
 git push -u origin main
 ```
 
-La commande `git push` ne doit être exécutée qu'après la confirmation des
-fichiers à publier et du dépôt distant.
+Les noms et adresses électroniques des auteurs du rapport ont été publiés avec
+accord explicite de l'équipe.
