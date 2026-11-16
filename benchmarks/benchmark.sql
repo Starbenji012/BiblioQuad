@@ -1,0 +1,3 @@
+-- Scénario SQL de référence à exécuter manuellement 30 fois si un benchmark
+-- JDBC est ajouté. Il ne doit pas être lancé sans autorisation.
+-- Les scripts Python, Node et PHP fournissent déjà la mesure automatisée.
